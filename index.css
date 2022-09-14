@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+
+  background-image: url(table.png);
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+   color: goldenrod;
+   font-weight:bolder;
+   padding-top: 180px;
+   font-size: 3.5rem;
+}
+
+p {
+  color: white;
+  font-weight:bolder;
+  font-size: 1.5rem;
+
+}
+
+.per {
+  padding-top: 30px;
+}
+
+.startgame {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10PX;
+  color: #016f32;
+  font-weight: bold;
+  width: 150px;
+  border-radius: 5px;
+  background-color: goldenrod;
+  position: relative;
+  left: 80px;
+}
+.newcard {
+  position: relative;
+  top: 40px;
+  right: 72px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10PX;
+  color: #016f32;
+  font-weight: bold;
+  width: 150px;
+  border-radius: 5px;
+  background-color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+    color: white;
+    font-weight:bolder;
+    font-size: 1.5rem;
+}
